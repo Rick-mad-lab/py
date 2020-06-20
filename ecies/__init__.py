@@ -1,7 +1,15 @@
 from typing import Union
 
 from coincurve import PrivateKey, PublicKey
-from ecies.utils import generate_key, hex2prv, hex2pub, encapsulate, decapsulate, aes_encrypt, aes_decrypt
+from ecies.utils import (
+    generate_key,
+    hex2prv,
+    hex2pub,
+    encapsulate,
+    decapsulate,
+    aes_encrypt,
+    aes_decrypt,
+)
 
 __all__ = ["encrypt", "decrypt"]
 
